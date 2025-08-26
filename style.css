@@ -1,0 +1,61 @@
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    padding: 1rem 6rem;
+}
+
+.flex-between {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+.flex-between {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+nav{
+    list-style-type: none;
+    justify-content: space-between; 
+
+}
+
+nav a{
+    padding-right: 0.5rem;
+}
+
+.drop-btn{
+    cursor: pointer;
+}
+
+.drop-content{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    color: grey;
+    font-weight: 600;
+}
+
+.drop-content li{
+    padding: 0.5rem 0;
+}
+
+.dropdown:hover .drop-content{
+    display: block;
+}
+
+.drop-content li:hover{
+    color: black;
+}
+
+.homepage{
+    padding: 2rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
