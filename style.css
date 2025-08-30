@@ -48,13 +48,13 @@ nav a{
     color: grey;
     font-weight: 600;
     font-size: 80%;
+    background-color: white;
+    border-radius: 0.3rem;
 }
 
 .drop-content li{
-    padding: 0.5rem 0;
-}
-
-.dropdown{
+    margin: auto;
+    padding: 1rem 1rem;
 }
 
 .dropdown:hover .drop-content{
@@ -138,6 +138,16 @@ img{
 .singer{
     font-size: 12px;
 }
+
+
+.projects{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 15%;
+}
+
 
 footer{
     margin-top: auto;
