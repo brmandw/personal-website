@@ -22,10 +22,10 @@ h2{
     justify-content: space-between; 
 }
 
-.flex-between {
+.footer-container {
     display: flex;
     flex-direction: row; 
-    justify-content: space-between; 
+    justify-content: space-around; 
 }
 
 nav{
@@ -103,9 +103,6 @@ li a:hover{
     justify-content: center;
     border-radius: 100px;
     margin-bottom: 1rem;
-}
-
-img{
     border-radius: 16px;
     box-shadow: 0 2px 20px rgba(0,0,0,0.4);
 }
@@ -146,6 +143,26 @@ img{
     align-items: center;
     margin-bottom: 2rem;
     padding: 0 15%;
+}
+
+.more{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-bottom: 12rem;
+}
+
+img .playlist{
+    border-radius: 2rem;
+}
+
+.playlist{
+    width: 200px;
+}
+
+.playlist span{
+    font-size: 14px;
+    padding: 1rem 0;
 }
 
 
