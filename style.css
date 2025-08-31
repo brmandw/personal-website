@@ -45,16 +45,17 @@ nav a{
     display: none;
     position: absolute;
     cursor: pointer;
-    color: grey;
+    color: black;
     font-weight: 600;
     font-size: 80%;
     background-color: white;
     border-radius: 0.3rem;
+    padding: 12px 8px;
 }
 
 .drop-content li{
     margin: auto;
-    padding: 1rem 1rem;
+    padding: 0.8rem 1rem;
 }
 
 .dropdown:hover .drop-content{
@@ -62,40 +63,52 @@ nav a{
 }
 
 .drop-content li:hover{
-    color: black;
+    text-decoration: underline;
 }
 
 .about{
-    padding: 5.5rem 0 9rem 0;
+    padding: 5rem 0 9rem 0;
 }
 
 .about p{
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
 }
 
-a:link {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
+a:link{
+    color: black;
+    text-decoration: none;
 }
 
-a:hover {
-  color: black;
+.inside a{
+    color: black;
 }
 
-li a:link{
-    color: grey;
+.inside a:hover{
+    text-decoration: underline;
 }
 
-li a:hover{
-    color: rgb(0, 0, 0);
+.drop-content a{
+    color: black;
+}
+
+.drop-content a:hover{
+    color: black;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
 
 .song{
     display: flex;
     gap: 1rem;
-    padding: 1rem 1rem 4rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
 }
 
 .gambar{
@@ -114,7 +127,6 @@ li a:hover{
 }
 
 .lyrics{
-    border: 1px solid;
     width: 70%;
     padding: 1rem 2rem;
     font-weight: 900;
@@ -122,6 +134,8 @@ li a:hover{
     border-radius: 1rem;
     background-color: rgb(0, 0, 0);
     color: rgba(255, 255, 255, 0.82);
+    overflow-y: auto;
+    height: 300px;
 }
 
 .lyrics p:hover{
@@ -145,7 +159,7 @@ li a:hover{
     gap: 5rem;
     align-items: center;
     margin: 1rem 2rem 2rem 2rem;
-    padding: 10% 10%;
+    padding: 8% 8%;
     border-radius: 1rem;
 }
 
@@ -160,7 +174,7 @@ li a:hover{
 .ket{
     display: flex;
     gap: 1rem;
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 .sub-ket .title{
@@ -206,8 +220,12 @@ li a:hover{
     padding-top: 1rem;
 }
 
-.img-more img{
-    border-radius: 1rem;
+.img-more img:hover{
+    transform: scale(1.05);
+}
+
+.img:hover{
+    transform: scale(1.05);
 }
 
 footer{
